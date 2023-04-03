@@ -1,0 +1,238 @@
+{
+    "uid": "e329c151ccb51d8b",
+    "name": "CME1_Rollout",
+    "fullName": "CME1_Rollout",
+    "historyId": "140d167abc9278d7a3cc3da491c1bf71",
+    "time": {
+        "start": 1679571917064,
+        "stop": 1679571964535,
+        "duration": 47471
+    },
+    "status": "broken",
+    "flaky": false,
+    "newFailed": false,
+    "newBroken": false,
+    "newPassed": false,
+    "retriesCount": 0,
+    "retriesStatusChange": false,
+    "beforeStages": [],
+    "testStage": {
+        "status": "broken",
+        "steps": [
+            {
+                "name": "CME1_Rollout",
+                "time": {
+                    "start": 1679571917086,
+                    "stop": 1679571964563,
+                    "duration": 47477
+                },
+                "status": "broken",
+                "statusMessage": "Error",
+                "statusTrace": "TypeError: Error while running \"isVisible\" command: [TypeError] this.instance.message.endsWith is not a function\n    at AssertionScheduler.getFullMessage (C:\\Users\\katrived\\Nightwatch_JS_Framework-main\\node_modules\\nightwatch\\lib\\api\\_loaders\\assertion-scheduler.js:163:31)\n    at AssertionScheduler.commandCallback (C:\\Users\\katrived\\Nightwatch_JS_Framework-main\\node_modules\\nightwatch\\lib\\api\\_loaders\\assertion-scheduler.js:110:28)\n    at Object.apply (C:\\Users\\katrived\\Nightwatch_JS_Framework-main\\node_modules\\nightwatch\\lib\\api\\_loaders\\_base-loader.js:303:29)\n    at IsVisible.complete (C:\\Users\\katrived\\Nightwatch_JS_Framework-main\\node_modules\\nightwatch\\lib\\element\\command.js:240:27)\n    at successHandler (C:\\Users\\katrived\\Nightwatch_JS_Framework-main\\node_modules\\nightwatch\\lib\\api\\element-commands\\_baseElementCommand.js:66:45)\n    at PeriodicPromise.perform (C:\\Users\\katrived\\Nightwatch_JS_Framework-main\\node_modules\\nightwatch\\lib\\utils\\periodic-promise.js:108:29)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async PeriodicPromise.runAction (C:\\Users\\katrived\\Nightwatch_JS_Framework-main\\node_modules\\nightwatch\\lib\\utils\\periodic-promise.js:48:22)\n    at async PeriodicPromise.runAction (C:\\Users\\katrived\\Nightwatch_JS_Framework-main\\node_modules\\nightwatch\\lib\\utils\\periodic-promise.js:51:16)",
+                "steps": [
+                    {
+                        "name": "Test Case - 1 \u001B[0;90m(4671ms)\u001B[0m",
+                        "time": {
+                            "start": 1679571917087,
+                            "stop": 1679571917087,
+                            "duration": 0
+                        },
+                        "status": "passed",
+                        "steps": [],
+                        "attachments": [],
+                        "parameters": [],
+                        "shouldDisplayMessage": false,
+                        "attachmentsCount": 0,
+                        "hasContent": false,
+                        "stepsCount": 0
+                    },
+                    {
+                        "name": "1. https://commerce.adobe.com/store/recommendation?items%5B0%5D%5Bid%5D=19AEE5AC1C9242C37657987E009E6553&cli=creative&co=US&ctx=fp&lang=en&rrItems%5B0%5D%5Bid%5D=19AEE5AC1C9242C37657987E009E6553",
+                        "time": {
+                            "start": 1679571917087,
+                            "stop": 1679571917087,
+                            "duration": 0
+                        },
+                        "status": "passed",
+                        "steps": [],
+                        "attachments": [],
+                        "parameters": [],
+                        "shouldDisplayMessage": false,
+                        "attachmentsCount": 0,
+                        "hasContent": false,
+                        "stepsCount": 0
+                    },
+                    {
+                        "name": " Successfully launched the browser",
+                        "time": {
+                            "start": 1679571917087,
+                            "stop": 1679571917087,
+                            "duration": 0
+                        },
+                        "status": "passed",
+                        "steps": [],
+                        "attachments": [],
+                        "parameters": [],
+                        "shouldDisplayMessage": false,
+                        "attachmentsCount": 0,
+                        "hasContent": false,
+                        "stepsCount": 0
+                    },
+                    {
+                        "name": "valiadation of Network response is started \u001B[0;90m(719ms)\u001B[0m",
+                        "time": {
+                            "start": 1679571917087,
+                            "stop": 1679571917087,
+                            "duration": 0
+                        },
+                        "status": "passed",
+                        "steps": [],
+                        "attachments": [],
+                        "parameters": [],
+                        "shouldDisplayMessage": false,
+                        "attachmentsCount": 0,
+                        "hasContent": false,
+                        "stepsCount": 0
+                    },
+                    {
+                        "name": "campaignID found in network response: \u001B[0;90m(730ms)\u001B[0m",
+                        "time": {
+                            "start": 1679571917087,
+                            "stop": 1679571917088,
+                            "duration": 1
+                        },
+                        "status": "passed",
+                        "steps": [],
+                        "attachments": [],
+                        "parameters": [],
+                        "shouldDisplayMessage": false,
+                        "attachmentsCount": 0,
+                        "hasContent": false,
+                        "stepsCount": 0
+                    },
+                    {
+                        "name": "validating for varientID in network response: \u001B[0;90m(550ms)\u001B[0m",
+                        "time": {
+                            "start": 1679571917088,
+                            "stop": 1679571917088,
+                            "duration": 0
+                        },
+                        "status": "passed",
+                        "steps": [],
+                        "attachments": [],
+                        "parameters": [],
+                        "shouldDisplayMessage": false,
+                        "attachmentsCount": 0,
+                        "hasContent": false,
+                        "stepsCount": 0
+                    },
+                    {
+                        "name": "variationID found in network response: \u001B[0;90m(415ms)\u001B[0m",
+                        "time": {
+                            "start": 1679571917088,
+                            "stop": 1679571917088,
+                            "duration": 0
+                        },
+                        "status": "passed",
+                        "steps": [],
+                        "attachments": [],
+                        "parameters": [],
+                        "shouldDisplayMessage": false,
+                        "attachmentsCount": 0,
+                        "hasContent": false,
+                        "stepsCount": 0
+                    },
+                    {
+                        "name": "Error while running \"isVisible\" command: [TypeError] this.instance.message.endsWith is not a function",
+                        "time": {
+                            "start": 1679571917088,
+                            "stop": 1679571917095,
+                            "duration": 7
+                        },
+                        "status": "failed",
+                        "statusMessage": "Error",
+                        "statusTrace": "TypeError: Error while running \"isVisible\" command: [TypeError] this.instance.message.endsWith is not a function\n    at AssertionScheduler.getFullMessage (C:\\Users\\katrived\\Nightwatch_JS_Framework-main\\node_modules\\nightwatch\\lib\\api\\_loaders\\assertion-scheduler.js:163:31)\n    at AssertionScheduler.commandCallback (C:\\Users\\katrived\\Nightwatch_JS_Framework-main\\node_modules\\nightwatch\\lib\\api\\_loaders\\assertion-scheduler.js:110:28)\n    at Object.apply (C:\\Users\\katrived\\Nightwatch_JS_Framework-main\\node_modules\\nightwatch\\lib\\api\\_loaders\\_base-loader.js:303:29)\n    at IsVisible.complete (C:\\Users\\katrived\\Nightwatch_JS_Framework-main\\node_modules\\nightwatch\\lib\\element\\command.js:240:27)\n    at successHandler (C:\\Users\\katrived\\Nightwatch_JS_Framework-main\\node_modules\\nightwatch\\lib\\api\\element-commands\\_baseElementCommand.js:66:45)\n    at PeriodicPromise.perform (C:\\Users\\katrived\\Nightwatch_JS_Framework-main\\node_modules\\nightwatch\\lib\\utils\\periodic-promise.js:108:29)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async PeriodicPromise.runAction (C:\\Users\\katrived\\Nightwatch_JS_Framework-main\\node_modules\\nightwatch\\lib\\utils\\periodic-promise.js:48:22)\n    at async PeriodicPromise.runAction (C:\\Users\\katrived\\Nightwatch_JS_Framework-main\\node_modules\\nightwatch\\lib\\utils\\periodic-promise.js:51:16)",
+                        "steps": [],
+                        "attachments": [
+                            {
+                                "uid": "9aeb9ba477b05423",
+                                "name": "Screenshot",
+                                "source": "9aeb9ba477b05423.png",
+                                "type": "image/png",
+                                "size": 56255
+                            }
+                        ],
+                        "parameters": [],
+                        "shouldDisplayMessage": true,
+                        "attachmentsCount": 1,
+                        "hasContent": true,
+                        "stepsCount": 0
+                    }
+                ],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "attachmentsCount": 1,
+                "hasContent": true,
+                "stepsCount": 8
+            }
+        ],
+        "attachments": [
+            {
+                "uid": "7b1ab45c29a12a67",
+                "name": "Reported Result",
+                "source": "7b1ab45c29a12a67.json",
+                "type": "application/json",
+                "size": 85413
+            }
+        ],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "attachmentsCount": 2,
+        "hasContent": true,
+        "stepsCount": 9
+    },
+    "afterStages": [],
+    "labels": [
+        {
+            "name": "tag",
+            "value": "Thu Mar 23 2023 17:15:17 GMT+0530 (India Standard Time)"
+        },
+        {
+            "name": "tag",
+            "value": "CHROME_111.0.5563.65__"
+        },
+        {
+            "name": "resultFormat",
+            "value": "allure2"
+        }
+    ],
+    "parameters": [
+        {
+            "name": "Machine",
+            "value": "CHROME_111.0.5563.65__"
+        }
+    ],
+    "links": [],
+    "hidden": false,
+    "retry": false,
+    "extra": {
+        "severity": "normal",
+        "retries": [],
+        "categories": [
+            {
+                "name": "Test defects",
+                "matchedStatuses": [],
+                "flaky": false
+            }
+        ],
+        "tags": [
+            "CHROME_111.0.5563.65__",
+            "Thu Mar 23 2023 17:15:17 GMT+0530 (India Standard Time)"
+        ]
+    },
+    "source": "e329c151ccb51d8b.json",
+    "parameterValues": [
+        "CHROME_111.0.5563.65__"
+    ]
+}
